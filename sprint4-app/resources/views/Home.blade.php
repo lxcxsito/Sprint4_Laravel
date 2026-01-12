@@ -1,0 +1,7 @@
+@extends('layouts.app')
+@section('content')
+    <h2>Welcome to GamersZone</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit ante ligula, facilisis egestas auctor vulputate fusce conubia ullamcorper viverra faucibus, congue porttitor quis proin et blandit ut ridiculus. Justo scelerisque tempor vivamus aptent faucibus quis placerat, cursus ante primis ultrices interdum viverra, phasellus laoreet magna sem etiam donec. Habitant ad mauris fames erat mattis pharetra quisque nec, aenean sociosqu a duis placerat purus sagittis etiam non, pellentesque ligula et quis est aliquet condimentum.
+    Neque imperdiet enim velit turpis natoque etiam sollicitudin quis dictumst, vivamus diam libero faucibus lacinia eros condimentum dictum, cras lacus nisi hendrerit aenean porta nulla sodales. Rutrum pulvinar rhoncus felis curae platea penatibus laoreet, porta sem ligula faucibus habitant morbi metus, consequat pretium litora vestibulum elementum facilisi. Sodales nostra posuere fames facilisis vitae eu maecenas donec urna phasellus sollicitudin, nibh euismod sagittis diam ridiculus elementum senectus varius metus pulvinar,
+ litora habitasse platea vivamus faucibus lectus mollis tortor aliquet sapien.</p>
+@endsection

@@ -1,0 +1,89 @@
+
+/* Contenedor estilo Apple */
+#card {
+background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    width: 320px;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 120px auto;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", Arial, sans-serif;
+    color: #111;
+    border: 1px solid #e5e5e5;
+    box-shadow: 
+        0 15px 30px rgba(0,0,0,0.10),
+        0 5px 10px rgba(0,0,0,0.06);
+    text-align: left;
+
+    /* Aparición suave */
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeUp 1s ease forwards;
+}
+
+/* Animación de aparición */
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Título del login */
+#card h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Inputs */
+#card input[type="text"],
+#card input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 18px;
+    border: 1px solid #d1d1d6;
+    border-radius: 12px;
+    font-size: 16px;
+    background: #fafafa10;
+    color: #f1f5f9;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+#card input[type="text"]::placeholder,
+#card input[type="password"]::placeholder {
+    color: #cbd5e1;
+}
+
+#card input:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 4px rgba(59,130,246,0.2);
+    background: #ffffff10;
+}
+
+/* Botón */
+#card .button {
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 14px;
+    border: none;
+    background: #3b82f6;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    box-shadow: 0 4px 12px rgba(59,130,246,0.3);
+}
+
+#card .button:hover {
+    background: #2563eb;
+    box-shadow: 0 6px 16px rgba(59,130,246,0.35);
+    transform: translateY(-2px);
+}
+
+#card .button:active {
+    transform: scale(0.97);
+    box-shadow: 0 4px 12px rgba(59,130,246,0.3);
+}
